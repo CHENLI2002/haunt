@@ -1,0 +1,26 @@
+{
+  "name": "haunt",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Venue-First live music platform — TypeScript monorepo",
+  "packageManager": "pnpm@9.12.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "db:start": "supabase start",
+    "db:migrate": "supabase db push",
+    "db:reset": "supabase db reset",
+    "db:types": "supabase gen types typescript --local > packages/types/src/database.types.ts",
+    "seed": "tsx supabase/seed/backfill.ts"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "tsx": "^4.19.0",
+    "turbo": "^2.1.0",
+    "typescript": "^5.6.0"
+  }
+}

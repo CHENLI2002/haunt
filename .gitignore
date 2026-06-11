@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Node / TypeScript monorepo ─────────────────────────────
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Turborepo
+.turbo/
+
+# Expo / React Native
+.expo/
+web-build/
+*.orig.*
+
+# Supabase (local stack)
+supabase/.branches/
+supabase/.temp/
+
+# Env (keep .env.example tracked)
+.env*.local
+!.env.example
+
+# Vercel
+.vercel/

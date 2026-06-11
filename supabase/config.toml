@@ -1,0 +1,18 @@
+# Supabase local stack config (supabase CLI). Minimal — expand as needed.
+project_id = "haunt"
+
+[api]
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+port = 54323
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"

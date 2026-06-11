@@ -2,7 +2,7 @@
   "name": "mobile",
   "version": "0.0.0",
   "private": true,
-  "main": "expo-router/entry",
+  "main": "index.ts",
   "scripts": {
     "dev": "expo start",
     "android": "expo start --android",
@@ -10,17 +10,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@babel/runtime": "^7.25.0",
     "@haunt/db": "workspace:*",
     "@haunt/types": "workspace:*",
     "@haunt/ui": "workspace:*",
     "@supabase/supabase-js": "^2.45.0",
-    "expo": "^52.0.0",
-    "expo-router": "^4.0.0",
+    "expo": "~52.0.0",
+    "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.0"
+    "react-native": "0.76.3"
   },
   "devDependencies": {
-    "@types/react": "~18.3.0",
+    "@types/react": "~18.3.12",
     "typescript": "^5.6.0"
   }
 }

@@ -5,8 +5,6 @@
     "scheme": "haunt",
     "version": "0.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "automatic",
-    "plugins": ["expo-router"],
-    "experiments": { "typedRoutes": true }
+    "userInterfaceStyle": "automatic"
   }
 }

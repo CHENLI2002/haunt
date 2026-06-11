@@ -195,6 +195,8 @@ The positioning is "your live record belongs to you, not fed to AI" — this isn
 
 All versions (v0–v3) merged into a single list. Each row is **roughly one shippable small feature**, ordered by **user-perceived impact**, *not* by build order. Everything is built in **TypeScript** throughout.
 
+> Each item below is broken into **atomic, independently-testable tasks (~1–2h each, with agents)** in [`backlog.md`](backlog.md) — v0 is fully decomposed there; v1–v3 are at epic granularity until reached.
+
 > Dependency caveat: a few high-impact items depend on lower-ranked enablers (you can't follow without an **account** (#5); pages are empty without **seed content** (#8)). Rank is by impact; actual build order must still respect those prerequisites.
 
 | # | Feature | What the user gets | From |
